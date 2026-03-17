@@ -7,11 +7,11 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git branch: 'main' , url: 'https://github.com/AnirudhS3110/devops-jenkins-assignment.git'
-            }
-        }
+        // stage('Checkout') {
+        //     steps {
+        //         git branch: 'main' , url: 'https://github.com/AnirudhS3110/devops-jenkins-assignment.git'
+        //     }
+        // }
 
         stage('Build Image') {
             steps {
