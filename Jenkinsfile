@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main' , url: 'https://github.com/AnirudhS3110/devops-jenkins-assignment.git'
+                git branch: 'main' , url: 'https://github.com/AnirudhS3110/ci-cd-app.git'
             }
         }
 
