@@ -6,7 +6,6 @@ app.get("/", (req, res) => {
     <h1>Welcome</h1>
     <p>Name: Anirudh S</p>
     <p>Roll No: 2023BCS0019</p>
-    <p>Register No: YOUR REGISTER</p>
   `);
 });
 
